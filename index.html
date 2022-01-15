@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<link href="https://fonts.googleapis.com/css2?family=Asap&family=Nunito:wght@200&family=Yellowtail&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Teste Prático Front-end O POVO</title>
+
+</head>
+	<body>
+ 		<nav>
+	    	<a href>Teste Prático Front-end O POVO</a>
+			<ul>
+				<li><a href="#sobre"><b>Sobre</b></a></li>
+				<li><a href="#serviços"><b>Inscrições</b></a></li>
+				<li><a href="#contato"><b>Contato</b></a></li>
+			</ul>
+ 		</nav>
+ <header id="topo">
+ 		<h1>PROGRAMADOR FRONT-END I</h1> 
+ 		<section>
+ 				<img src="img/p1.png" alt="Tela de programador">
+ 		</section>
+ 			<p>Estamos abrindo cadastro para candidatos a vaga de Desenvolvedor Jr, para nosso Squad de desenvolvimento web.</p>
+ </header>
+
+ <section id="sobre">
+ 		<h2>Sobre</h2>
+ 			<p>Desenvolver, implantar e manter produtos web de acordo com metodologia e técnicas adequadas, visando atender aos objetivos estabelecidos quanto à qualidade, custos, prazos e benefícios, bem como racionalizar e/ou automatizar processos e rotinas de trabalho das áreas. Caso tenha se identificado com a vaga, logo a baixo, temos um formulário de inscrições.</p>
+ </section>
+ <section id="serviços"></section>
+ 	 	<h4>Preencha o formulário de inscrição.</h4>
+
+ 	<section>
+ 		<form>
+ 			<div>
+ 			  <label>Nome</label>
+ 				<input type="text" placeholder="Digite seu name" name="nome" required></div>
+ 				<div>
+ 				 <label>Telefone</label>
+ 					<input type="text" placeholder="Digite seu telefone" nome="telefone" required>
+ 				<div>
+ 				 <label>E-mail</label>
+ 					<input type="text" placeholder="Digite seu E-mail" name="email" required>
+ 				</div>
+ 		<form action="envia_foto.php" method="post" enctype="multipart/form-data"> 
+ 			 <label>Anexe seu currículo</label>
+ 				<input type="file" name="Arquivo" id="Arquivo" required>
+ 		</form>
+				<div>
+ 					<label>Mensagem</label>
+ 					<textarea rows="15" name="msg" required></textarea></div>
+ 					<button	type="submit">Enviar</button>		
+
+ 				</div>
+ 			</div>
+ 		</form>
+ 	</section>
+
+
+ 	</header>
+<section id="contato">
+	<p>Entre em contato:
+		<div>
+			<img src="img/tel.png" alt="telefone"
+			  p> <a href="Tel:8599229-1231"> (85) 98990-4451 </a> </p>
+				</div>
+ 			<style type="text/css"></style>
+ 		<div>
+			<img src="img/mail.png" alt="email"
+			p> <a href="mailto:juliofrontend@opovo.com"> juliomourab9@opovodigital.com </a> </p>
+		</div>
+</section>
+<footer>
+	<a href="#topo">Voltar</a>
+		<p>Desenvolvido por Julio Cesar Moura, por meio do teste prático do processo seletivo do Jornal O Povo.</p>
+</footer>
+</body>
+</html>
